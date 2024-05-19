@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="content">
+            <h1>Welcome to Our Landing Page</h1>
+            <p>Discover our wide range of services and how we can help you achieve your goals.</p>
+            <a href="#services" class="cta">Learn More</a>
+        </div>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Consulting</h3>
+                <p>Our expert consultants provide personalized advice and solutions to help your business thrive in a competitive market.</p>
+            </div>
+            <div class="card">
+                <h3>Development</h3>
+                <p>We offer comprehensive development services, including web development, app development, and software solutions tailored to your needs.</p>
+            </div>
+            <div class="card">
+                <h3>Marketing</h3>
+                <p>Our marketing team creates innovative strategies to enhance your brand visibility and drive customer engagement.</p>
+            </div>
+            <div class="card">
+                <h3>Design</h3>
+                <p>Our talented designers craft visually appealing and user-friendly designs for your digital and print media needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated team of professionals committed to providing top-notch services to our clients. With years of experience in the industry, we strive to deliver exceptional results and foster long-term relationships with our clients.</p>
+        <p>Our mission is to empower businesses by offering innovative solutions and unparalleled support. We believe in the power of collaboration and work closely with our clients to understand their unique needs and challenges.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to learn more about our services, please don't hesitate to get in touch. We look forward to hearing from you!</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
